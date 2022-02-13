@@ -1,0 +1,70 @@
+@import url(components/components.css);
+
+body {
+  height: 100vh;
+}
+
+main {
+  width: 600px;
+}
+
+.logo {
+  width: 600px;
+  height: 170px;
+}
+
+.logo-text {
+  flex-direction: column;
+}
+
+.upper-text {
+  font-size: 5rem;
+  font-family: "Shizuru", cursive;
+}
+
+.lower-text {
+  font-size: 2rem;
+}
+
+.skull {
+  font-size: 7rem;
+}
+
+p {
+  margin: 2rem 0;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  padding: 0.5rem;
+  margin: 0 1rem;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+a {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.btn-doc {
+  background: var(--primary-active);
+  border: 3px solid var(--primary-active);
+}
+
+.btn-doc a {
+  color: black;
+}
+
+.btn-github {
+  border: 3px solid var(--primary-active);
+  background: var(--bg-color);
+}
+
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 3px 3px 10px 5px var(--secondary-color);
+}
