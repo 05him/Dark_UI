@@ -1,0 +1,48 @@
+.badge-icon {
+  font-size: 40px;
+}
+
+.badge-box {
+  position: relative;
+}
+
+.number-badge {
+  font-size: 10px;
+  padding: 2px;
+  text-align: center;
+  box-sizing: content-box;
+}
+
+.simple-badge,
+.number-badge {
+  width: 15px;
+  height: 15px;
+  background: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: -5px;
+}
+
+.online-badge,
+.dnd-badge,
+.offline-badge {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border-radius: 50%;
+  bottom: 8px;
+  right: 5px;
+}
+
+.online-badge {
+  background: rgb(3, 214, 3);
+}
+
+.dnd-badge {
+  background: rgb(177, 5, 5);
+}
+
+.offline-badge {
+  background: rgb(150, 149, 149);
+}

@@ -2,6 +2,9 @@
 
 body {
   height: 100vh;
+  color: var(--text-color);
+  font-family: "Montserrat", sans-serif;
+  background: var(--bg-color);
 }
 
 main {
@@ -48,6 +51,7 @@ button {
 a {
   font-size: 1.2rem;
   margin-bottom: 1rem;
+  color: var(--text-color);
 }
 
 .btn-doc {
