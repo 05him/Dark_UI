@@ -2,11 +2,8 @@
 
 @import url(../utilities.css);
 
-body {
-  color: var(--text-color);
-  font-family: "Montserrat", sans-serif;
-  background: var(--bg-color);
-}
+@import url(avatar/avatar.css);
+@import url(badge/badge.css);
 
 * {
   margin: 0;
@@ -21,6 +18,11 @@ body {
   --primary-bg: rgba(48, 140, 122, 0.3);
   --secondary-color: #03071e;
   --text-color: white;
+  --demo-bg: #d0cbcbd9;
+  --badge-bg: red;
+  --badge-online: rgb(3, 214, 3);
+  --badge-dnd: rgb(177, 5, 5);
+  --badge-offline: rgb(150, 149, 149);
 }
 
 a {
