@@ -1,0 +1,21 @@
+.avtr {
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+}
+
+.avtr-xs {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.avtr-s {
+  width: 4rem;
+  height: 4rem;
+}
+
+.avtr-l {
+  width: 6.5rem;
+  height: 6.5rem;
+}
