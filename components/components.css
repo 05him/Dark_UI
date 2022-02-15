@@ -19,6 +19,10 @@
   --secondary-color: #03071e;
   --text-color: white;
   --demo-bg: #d0cbcbd9;
+  --badge-bg: red;
+  --badge-online: rgb(3, 214, 3);
+  --badge-dnd: rgb(177, 5, 5);
+  --badge-offline: rgb(150, 149, 149);
 }
 
 a {
