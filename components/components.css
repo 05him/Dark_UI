@@ -9,6 +9,10 @@
 @import url(card/card.css);
 @import url(image/image.css);
 @import url(input/input.css);
+@import url(text-util/text-util.css);
+@import url(lists/lists.css);
+@import url(navigation/navigation.css);
+@import url(modal/modal.css);
 
 * {
   margin: 0;

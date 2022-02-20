@@ -1,0 +1,17 @@
+.list-box {
+  background: var(--text-color);
+  color: var(--card-text);
+  padding: 0.7rem 0.7rem 0.7rem 1.8rem;
+  border-radius: 10px;
+  width: 17rem;
+}
+
+.list-stacked {
+  list-style: none;
+}
+
+.list-stacked li {
+  padding: 0.3rem;
+  border: 0.5px solid var(--card-text);
+  margin: 0.5rem;
+}
