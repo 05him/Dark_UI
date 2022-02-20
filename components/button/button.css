@@ -10,6 +10,10 @@
   color: var(--text-color);
 }
 
+.btn:hover {
+  box-shadow: 0.5px 0.5px 5px 0.5px var(--secondary-color);
+}
+
 .btn-primary {
   background: var(--alert-primary);
 }
@@ -62,4 +66,12 @@
 .btn-danger-outline {
   color: var(--alert-danger);
   border-color: var(--alert-danger);
+}
+
+.btn-action {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background: var(--alert-primary);
+  font-size: 1.8rem;
 }

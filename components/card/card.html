@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card | DARK-UI</title>
+    <link rel="stylesheet" href="../../doc.css" />
+    <link rel="icon" href="../../assets/favicon.ico">
+    <script src="https://kit.fontawesome.com/d9dd91a45f.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+      <header class=" header">
+      <a href="../../index.html"><span class="header-logo">&#128128DARK-UI</span></a>
+      <span>
+      <a class="a-header" href="../../index.html">Home</a>
+      <a class="a-header" href="../../doc.html">Documentation</a>
+      <a class="a-header" href="https://github.com/05him/Dark_UI">Github</a>
+      </span>
+      </header>
+      <div class="content flex-center">
+      <aside>
+          <ul>
+              <li class="big-side-li">Getting Started</li>
+              <li class="side-li"><a class="a-hover" href="../../doc.html">Introduction</a></li>
+              <li class="big-side-li">Components</li>
+              <li class="side-li"> <a class="a-hover" href="../avatar/avatar.html">Avatar</a> </li>
+              <li class="side-li"> <a class="a-hover " href="../alert/alert.html">Alert</a> </li>
+              <li class="side-li"> <a class="a-hover" href="../badge/badge.html">Badge</a> </li>
+              <li class="side-li"> <a class="a-hover" href="../button/button.html">Button</a> </li>
+              <li class="side-li side-li-active"> <a class="a-hover a-active" href="../card/card.html">Card</a> </li>
+              <li class="side-li"> <a class="a-hover" href="../image/image.html">Image</a> </li>
+              <li class="side-li"> <a class="a-hover" href="../input/input.html">Input</a> </li>
+              <li class="side-li"> <a class="a-hover" href="../text-util/text-util.html">Text Utilities</a> </li>
+              <li class="side-li"> <a class="a-hover" href="../lists/lists.html">Lists</a> </li>
+              <li class="side-li"> <a class="a-hover" href="../navigation/navigation.html">Navigation</a> </li>
+              <li class="side-li"> <a class="a-hover" href="../modal/modal.html">Modal </a> </li>
+              <li class="side-li"> <a class="a-hover" href="../rating/rating.html">Rating </a> </li>
+              <li class="side-li"> <a class="a-hover" href="../toast/toast.html">Toast </a> </li>
+              <li class="side-li"> <a class="a-hover" href="../grid/grid.html">Grid</a> </li>
+          </ul>
+      </aside>
+      <main>
+        <h1 class="head">Card</h1>
+        <p>Cards support a wide variety of content, including images, text, list groups, links, and more </p>
+        <hr>
+        <h2 class="head">Vertical & Horizontal Cards</h2>
+        <div class="demo-box flex-center">
+          <div class="card-box-vertical">
+            <div class="card-img flex-center">
+                <img class="card-badge-top-right" src="../../assets/empty-heart-badge.svg">
+                <img src="../../assets/jacket.svg">
+            </div>
+            <div class="card-text">
+              <h3 class="card-title">Tension Free Jacket</h3>
+              <span class="card-price-final">₹2500</span>
+              <span class="card-price-initial">₹5000</span>
+              <span class="card-discount block">50% OFF</span>
+              <span class="card-desc block">Hey This Is A Tension Free Jacket While Wearing This You Will Go All Tension Free, So Buy Now!</span>
+              <div class="card-btn-box flex-center">
+                <button type="button" class="btn btn-primary">Add To Cart</button>
+                <button type="button" class="btn btn-secondary-outline">Go To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <iframe
+        class="code-box"
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=700&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=27px&ph=21px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522card-box-vertical%2522%253E%250A%250A%2520%2509%253Cdiv%2520class%253D%2522card-img%2520flex-center%2522%253E%250A%2520%2509%2509%253Cimg%2520class%253D%2522card-badge-top-right%2522%2520src%253D%2522..%252F..%252Fassets%252Fempty-heart-badge.svg%2522%253E%250A%2520%2509%2509%253Cimg%2520src%253D%2522...%2522%253E%250A%2520%2509%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522card-text%2522%253E%250A%250A%2520%2520%253Ch3%2520class%253D%2522card-title%2522%253ETension%2520Free%2520Jacket%253C%252Fh3%253E%250A%2520%2520%253Cspan%2520class%253D%2522card-price-final%2522%253E%25E2%2582%25B92500%253C%252Fspan%253E%250A%2520%2520%253Cspan%2520class%253D%2522card-price-initial%2522%253E%25E2%2582%25B95000%253C%252Fspan%253E%250A%2520%2520%253Cspan%2520class%253D%2522card-discount%2520block%2522%253E50%2525%2520OFF%253C%252Fspan%253E%250A%2520%2520%253Cspan%2520class%253D%2522card-desc%2520block%2522%253EHey%2520This%2520Is%2520A%2520Tension%2520Free%2520Jacket%2520While%2520Wearing%2520This%2520You%2520Will%2520Go%2520All%2520Tension%2520Free%252C%2520So%2520Buy%2520Now%21%253C%252Fspan%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-btn-box%2520flex-center%2522%253E%250A%2520%2520%2520%2509%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2522%253EAdd%2520To%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2509%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-secondary-outline%2522%253EGo%2520To%2520%2509%2509Cart%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%250A%2520%253C%252Fdiv%253E%250A%250A%2520%253C%252Fdiv%253E"
+          style="height: 576px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
+        </iframe>
+        <div class="demo-box">
+          <div class="card-box-horizontal flex-center">
+            <div class="card-img flex-center">
+              <img src="../../assets/jacket.svg">
+            <span class="card-badge-top-left">Best Choice</span>
+          </div>
+          <div class="card-text">
+            <h3 class="card-title">Tension Free Jacket</h3>
+            <span class="card-price-final">₹2500</span>
+            <span class="card-price-initial">₹5000</span>
+            <span class="card-discount block">50% OFF</span>
+            <span class="card-desc block">Hey This Is A Tension Free Jacket While Wearing This You Will Go All Tension Free, So Buy Now!</span>
+            <div class="card-btn-box flex-center">
+              <button type="button" class="btn btn-primary">Add To Cart</button>
+              <button type="button" class="btn btn-secondary-outline">Go To Cart</button>
+            </div>
+          </div>
+          </div>
+        </div>
+        <iframe
+        class="code-box"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=700&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=27px&ph=21px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522card-box-horizontal%2520flex-center%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-img%2520flex-center%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Fjacket.svg%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522card-badge-top-left%2522%253EBest%2520Choice%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-text%2522%253E%250A%2520%2520%253Ch3%2520class%253D%2522card-title%2522%253ETension%2520Free%2520Jacket%253C%252Fh3%253E%250A%2520%2520%253Cspan%2520class%253D%2522card-price-final%2522%253E%25E2%2582%25B92500%253C%252Fspan%253E%250A%2520%2520%253Cspan%2520class%253D%2522card-price-initial%2522%253E%25E2%2582%25B95000%253C%252Fspan%253E%250A%2520%2520%253Cspan%2520class%253D%2522card-discount%2520block%2522%253E50%2525%2520OFF%253C%252Fspan%253E%250A%2520%2520%253Cspan%2520class%253D%2522card-desc%2520block%2522%253EHey%2520This%2520Is%2520A%2520Tension%2520Free%2520Jacket%2520While%2520Wearing%2520This%2520You%2520Will%2520Go%2520All%2520Tension%2520Free%252C%2520So%2520Buy%2520Now%21%253C%252Fspan%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-btn-box%2520flex-center%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2522%253EAdd%2520To%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-secondary-outline%2522%253EGo%2520To%2520Cart%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
+        style="height: 465px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+        </iframe>
+        <hr>
+        <h2 class="head">Card With Text Overlay</h2>
+        <div class="demo-box flex-center">
+          <div class="card-box-vertical">
+            <div class="card-overlay">Out Of Stock</div>
+            <div class="card-img flex-center">
+                <img class="card-badge-top-right" src="../../assets/empty-heart-badge.svg">
+                <img src="../../assets/jacket.svg">
+            </div>
+            <div class="card-text">
+              <h3 class="card-title">Tension Free Jacket</h3>
+              <span class="card-price-final">₹2500</span>
+              <span class="card-price-initial">₹5000</span>
+              <span class="card-discount block">50% OFF</span>
+              <span class="card-desc block">Hey This Is A Tension Free Jacket While Wearing This You Will Go All Tension Free, So Buy Now!</span>
+              <div class="card-btn-box flex-center">
+                <button type="button" class="btn btn-primary">Add To Cart</button>
+                <button type="button" class="btn btn-secondary-outline">Go To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <iframe
+        class="code-box"
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=700&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=27px&ph=21px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-box-vertical%2522%253E%250A%253Cdiv%2520class%253D%2522card-overlay%2522%253EOut%2520Of%2520Stock%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522card-img%2520flex-center%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-badge-top-right%2522%2520src%253D%2522..%252F..%252Fassets%252Fempty-heart-badge.svg%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Fjacket.svg%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522card-text%2522%253E%250A%2520%2520%253Ch3%2520class%253D%2522card-title%2522%253ETension%2520Free%2520Jacket%253C%252Fh3%253E%250A%2520%2520%253Cspan%2520class%253D%2522card-price-final%2522%253E%25E2%2582%25B92500%253C%252Fspan%253E%250A%2520%2520%253Cspan%2520class%253D%2522card-price-initial%2522%253E%25E2%2582%25B95000%253C%252Fspan%253E%250A%2520%2520%253Cspan%2520class%253D%2522card-discount%2520block%2522%253E50%2525%2520OFF%253C%252Fspan%253E%250A%2520%2520%253Cspan%2520class%253D%2522card-desc%2520block%2522%253EHey%2520This%2520Is%2520A%2520Tension%2520Free%2520Jacket%2520While%2520Wearing%2520This%2520You%2520Will%2520Go%2520All%2520Tension%2520Free%252C%2520So%2520Buy%2520Now%21%253C%252Fspan%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-btn-box%2520flex-center%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2522%253EAdd%2520To%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-secondary-outline%2522%253EGo%2520To%2520Cart%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+          style=" height: 501px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
+        </iframe>
+        <hr>
+        <h2 class="head">Text Only Card</h2>
+        <div class="demo-box flex-center">
+          <div class="card-box-vertical card-text-only">
+            <div class="card-text">
+              <h3 class="card-title">Tension Free Jacket</h3>
+              <button type="button" class="card-dismiss-btn">✗</button>
+              <hr>
+              <span class="card-desc block">Hey This Is A Tension Free Jacket While Wearing This You Will Go All Tension Free, So Buy Now!</span>              
+            </div>
+          </div>
+        </div>
+        <iframe
+        class="code-box"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=700&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=27px&ph=21px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-box-vertical%2520card-text-only%2522%253E%250A%253Cdiv%2520class%253D%2522card-text%2522%253E%250A%2520%2520%253Ch3%2520class%253D%2522card-title%2522%253ETension%2520Free%2520Jacket%253C%252Fh3%253E%250A%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522card-dismiss-btn%2522%253E%25E2%259C%2597%253C%252Fbutton%253E%250A%2520%2520%253Chr%253E%250A%2520%2520%253Cspan%2520class%253D%2522card-desc%2520block%2522%253EHey%2520This%2520Is%2520A%2520Tension%2520Free%2520Jacket%2520While%2520Wearing%2520This%2520You%2520Will%2520Go%2520All%2520Tension%2520Free%252C%2520So%2520Buy%2520Now%21%253C%252Fspan%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+        style=" height: 278px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+        </iframe>
+        <hr>
+       </main>
+      </div>
+  </body>
+</html>

@@ -140,3 +140,7 @@ hr {
 .demo-badge {
   justify-content: space-evenly;
 }
+
+.demo-img-responsive {
+  height: 20rem;
+}

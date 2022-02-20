@@ -6,6 +6,9 @@
 @import url(badge/badge.css);
 @import url(alert/alert.css);
 @import url(button/button.css);
+@import url(card/card.css);
+@import url(image/image.css);
+@import url(input/input.css);
 
 * {
   margin: 0;
@@ -14,15 +17,15 @@
 }
 
 :root {
-  --bg-color: #1a202c;
-  --primary-color: #00ffdd;
-  --primary-active: #81e6d9;
+  --bg-color: rgb(26, 32, 44);
+  --primary-color: rgb(0, 255, 221);
+  --primary-active: rgb(129, 230, 217);
   --primary-bg: rgba(48, 140, 122, 0.3);
-  --secondary-color: #03071e;
+  --secondary-color: rgb(3, 7, 30);
   --text-color: white;
 
-  --demo-bg: #d0cbcbd9;
-  --badge-bg: red;
+  --demo-bg: rgba(208, 203, 203, 0.851);
+  --badge-bg: rgb(255, 0, 0);
   --badge-online: rgb(3, 214, 3);
   --badge-dnd: rgb(177, 5, 5);
   --badge-offline: rgb(150, 149, 149);
@@ -30,8 +33,13 @@
   --alert-primary: rgb(92, 92, 250);
   --alert-secondary: rgb(94, 94, 94);
   --alert-success: rgb(57, 162, 57);
-  --alert-warning: rgb(235, 235, 44);
+  --alert-warning: rgb(226, 180, 51);
   --alert-danger: rgb(201, 21, 21);
+
+  --card-text: rgb(0, 0, 0);
+  --card-overlay-bg: rgba(0, 0, 0, 0.3);
+
+  --input-error: rgb(255, 0, 0);
 }
 
 a {

@@ -1,0 +1,29 @@
+.text-box {
+  width: 25rem;
+  height: 7rem;
+  color: var(--card-text);
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.input-box {
+  font-size: 1.2rem;
+  color: var(--card-text);
+}
+
+.input-box input {
+  padding: 0.2rem;
+  margin-top: 0.3rem;
+  border-radius: 5px;
+  border: 1px solid var(--card-text);
+}
+
+.input-error input {
+  border: 1px solid var(--input-error);
+}
+
+.input-error span {
+  color: var(--input-error);
+  font-size: 0.8rem;
+}
