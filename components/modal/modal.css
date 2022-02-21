@@ -1,0 +1,12 @@
+.modal-box {
+  background: var(--text-color);
+  color: var(--card-text);
+  width: 15rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  position: relative;
+}
+
+.modal-box .card-dismiss-btn {
+  left: 85%;
+}

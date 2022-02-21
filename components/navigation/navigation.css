@@ -1,0 +1,10 @@
+.nav-bar {
+  width: 95%;
+  padding: 1.3rem;
+  background: var(--bg-color);
+  border-radius: 10px;
+}
+
+.nav-bar .header-logo {
+  margin-right: 30%;
+}

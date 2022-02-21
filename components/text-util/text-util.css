@@ -1,0 +1,71 @@
+.h1 {
+  font-size: 2em;
+}
+
+.h2 {
+  font-size: 1.5em;
+}
+
+.h3 {
+  font-size: 1.17em;
+}
+
+.h4 {
+  font-size: 1em;
+}
+
+.h5 {
+  font-size: 0.83em;
+}
+
+.h6 {
+  font-size: 0.75em;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  margin: 0.5rem;
+}
+
+.text-xl {
+  font-size: 2rem;
+}
+
+.text-l {
+  font-size: 1.5rem;
+}
+
+.text-m {
+  font-size: 1rem;
+}
+
+.text-s {
+  font-size: 0.7rem;
+}
+
+.text-xs {
+  font-size: 0.5rem;
+}
+
+.text-blue {
+  color: var(--alert-primary);
+}
+
+.text-gray {
+  color: var(--alert-secondary);
+}
+
+.text-green {
+  color: var(--alert-success);
+}
+.text-yellow {
+  color: var(--alert-warning);
+}
+
+.text-red {
+  color: var(--alert-danger);
+}
