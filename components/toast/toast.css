@@ -1,0 +1,22 @@
+.toast {
+  width: 25rem;
+  position: relative;
+  padding: 0.5rem;
+}
+
+.toast-timeline {
+  height: 3px;
+  position: absolute;
+  bottom: -1px;
+  left: -1px;
+}
+
+.toast-successfull .toast-timeline {
+  width: 60%;
+  background: var(--alert-success);
+}
+
+.toast-error .toast-timeline {
+  width: 80%;
+  background: var(--alert-danger);
+}

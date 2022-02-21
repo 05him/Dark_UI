@@ -1,0 +1,20 @@
+.grid {
+  display: grid;
+  background: var(--alert-warning);
+  border: 1px solid;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.grid div {
+  padding: 0.5rem;
+  background: var(--alert-success);
+}
+
+.two-column-grid {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.two-row-grid {
+  grid-template-rows: repeat(2, 100px);
+}

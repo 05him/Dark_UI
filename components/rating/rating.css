@@ -1,0 +1,25 @@
+.rating-star-checked {
+  color: var(--rating-star);
+}
+
+.fa-star {
+  cursor: pointer;
+}
+
+.slider-box,
+.slider-box input,
+.slider-no {
+  width: 15rem;
+}
+
+.slider-box {
+  flex-direction: column;
+}
+
+.slider-box input {
+  cursor: pointer;
+}
+
+.slider-no {
+  justify-content: space-between;
+}
